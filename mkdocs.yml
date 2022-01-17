@@ -1,11 +1,11 @@
 docs_dir: docs/
-repo_name: 'tyson-swetnam/mkdocs-learning-materials-home'
-repo_url: 'https://github.com/tyson-swetnam/mkdocs-learning-materials-home'
+repo_name: 'MCMaurer/mkdocs-learning-materials-home'
+repo_url: 'https://github.com/MCMaurer/mkdocs-learning-materials-home'
 
 site_name: 'CyVerse Learning Home'
 site_description: 'Documentation for CyVerse Platforms and Education'
 site_author: 'CyVerse Science Team'
-site_url: https://tyson-swetnam.github.io/mkdocs-learning-materials-home/
+site_url: https://mcmaurer.github.io/mkdocs-learning-materials-home/
 
 edit_uri: edit/main/docs
 
@@ -15,14 +15,47 @@ copyright: 'Copyright &copy; 2022 CyVerse'
 # Navigation Page
 nav:
   - Home: index.md 
-  - Quick Start Guides: quick_starts.md
-  - Platform Guides: platform_guides.md
-  - Power Users: power_users.md
-  - Tools and Apps: tools_and_apps.md
-  - Tutorials: tutorials.md 
-  - Webinars: webinars.md
-  - Workshops: workshops.md
-  - Contributing: contributing.md
+  - Introduction:
+    - 'What is CyVerse?': what_is_cyverse.md
+    - 'CyVerse Account Setup': account.md 
+    - 'Choosing a Platform': choose_platform.md
+    - FAQ: faq.md
+  - 'Get Started':
+    - 'RStudio on CyVerse in 5 steps': rstudio.md
+    - 'JupyterLab on CyVerse in 5 steps': jupyterlab.md
+  - 'Platform Guides':
+    - 'Data Store': 
+      - 'Introduction': ds/intro.md
+      - 'Data Transfers with Discovery Environment': de/manage_data.md
+      - 'Data Transfers with Cyberduck Desktop App': ds/cyberduck.md
+      - 'Command Line Data Transfers': ds/icommands.md
+      - 'HTTP Access with WebDAV': ds/webdav.md
+      - 'Adding Metadata': ds/metadata.md
+      - 'Data Sharing': ds/share.md
+    - 'Discovery Environment':
+      - 'Introduction': de/intro.md
+      - 'Logging In': de/login.md
+      - 'Managing Data': de/manage_data.md
+      - 'Using Apps': de/using_apps.md
+      - 'Managing Analyses': de/managing_analyses.md
+      - 'Searching': de/searching.md
+      - 'Sharing and Using Bags': de/bags.md
+    - 'VICE': vice_guide.md
+  - 'Other Tools':
+    - BISQUE: bisque_guide.md
+    - 'DNA Subway': dna_subway_guide.md
+  - 'Extending CyVerse':
+    - 'Creating DE Apps': de_apps.md
+    - 'Extending VICE apps': vice_apps.md
+    - 'Custom Platforms': powered_by.md
+    - 'Platform Manuals': manuals.md
+  - 'Detailed Tutorials':
+    - Bioinformatics: bioinformatics_tutorials.md
+    - 'Other Topics': other_tutorials.md
+    - 'Teaching with CyVerse': teaching.md
+  - 'CyVerse Workshops':
+    - 'Foundational Open Science Skills': foss.md
+    - 'Container Camp': container_camp.md
 
 # JavaScript for Intercom Widget
 extra_javascript:
