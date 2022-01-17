@@ -21,8 +21,9 @@ nav:
     - 'Choosing a Platform': choose_platform.md
     - FAQ: faq.md
   - 'Get Started':
-    - 'RStudio on CyVerse in 5 steps': rstudio.md
-    - 'JupyterLab on CyVerse in 5 steps': jupyterlab.md
+    - 'RStudio on CyVerse in 6 steps': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html
+    - 'JupyterLab on CyVerse in 6 steps': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html
+    - 'Command Line on the Cloud': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-cloudshell.html
   - 'Platform Guides':
     - 'Data Store': 
       - 'Introduction': ds/intro.md
